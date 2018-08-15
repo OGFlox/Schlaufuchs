@@ -1,0 +1,146 @@
+.navbar-logo
+{
+	display: flex;
+	opacity: 0;
+	visibility: hidden;
+	height: 60px;
+	margin: 0px 0px 0px 50px;
+	transition-property: opacity, visibility;
+	transition-duration: 0.3s;
+}
+
+.selected
+{
+	pointer-events: none;
+	box-shadow: 0px 1px 10px black;
+}
+
+.navbar-logo img
+{
+	height: 60px;
+}
+
+.navbar-logo p
+{
+	width: 90px;
+	color: black;
+}
+
+
+.navbar-logo a
+{
+	text-decoration: none;
+}
+
+.navbar
+{
+	display: flex;
+	margin: 0px 0px 20px 0px;
+	background: linear-gradient(to right, #00B4CD, #2092A3, #005F6D);
+	padding: 20px 0px 20px 0px;
+	box-shadow:  0px 10px 10px grey;
+}
+
+.navbar-links
+{
+	margin-right: 200px;
+	width: 100%;
+	overflow: hidden;
+	display: inline-block;
+	list-style-type: none;
+	text-align: center;
+	padding: 0px;
+}
+
+.navbar-links ul 
+{
+    padding: 0px;
+}
+
+.navbar-links li 
+{
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+	color: white;
+}
+
+.navbar-links li:last-child
+{
+	float: right;
+	margin: 0px 20px 0px -150px;
+}
+
+.navbar-links a
+{
+    padding: 2px 30px 2px 30px;
+    font-size: 30px;
+	color: black;
+	text-decoration: none;
+	transition-property: background-color, color, border, box, box-shadow;
+	transition-duration: 0.3s;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
+}
+
+.navbar-links a:hover
+{
+	border: 1px medium #076274;
+    color: white;
+	box-shadow: 0px 5px 10px black;
+	-webkit-border-radius: 40px ;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
+}
+
+.navbar-links a:active
+{
+	background: #00C9E5
+}
+
+.header
+{
+	display: table;
+	width: 100%;
+	height: 100%;
+	background: #00B4CD;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+.header table
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header table td
+{
+	text-align: center;
+}
+
+.header h1 
+{
+	padding-top: 15px;
+	font-size:60px;
+	text-align: center;
+}
+
+button 
+{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover 
+{
+    opacity:1;
+}
