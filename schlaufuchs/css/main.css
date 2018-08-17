@@ -12,19 +12,9 @@ a
 	color: #4D4D4D;
 }
 
-.sticky
-{
-	position: fixed;
-	top: 0px;
-	width: 100%;
-}
-
 .main
 {
-	padding: 16px;
-	height: 1000px;
-	background: white;
-	padding-left:100px;
+	height: 100%;
 }
 
 .main h3
@@ -51,6 +41,30 @@ a
 #offer table tr td
 {
 	font-size:20px;
+}
+
+
+
+.bgimg1
+{
+	background-image: url("pfoten.jpg");
+    min-height: 2000px;
+}
+
+.bgimg2
+{
+	background-image: url("Logo.jpg");
+    height: 2000px;
+}
+
+.bgimg1 .bgimg2
+{
+	background-image: url("pfoten.jpg");
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media only screen and (max-width: 768px) 
