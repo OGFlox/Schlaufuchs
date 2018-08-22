@@ -41,7 +41,7 @@ input[type=text]:focus, input[type=password]:focus
 
 .cancelbtn, .signupbtn 
 {
-	font-family: Source Sans Pro;
+	font-family: Arial;
 	font-size: 15px;
 	margin: 0px 5px 0px 5px;
 	padding: 14px 20px;
@@ -84,8 +84,6 @@ input[type=text]:focus, input[type=password]:focus
 	-webkit-border-radius: 40px ;
 	-moz-border-radius: 40px;
 	border-radius: 40px;
-	
-	
 }
 	
 hr 

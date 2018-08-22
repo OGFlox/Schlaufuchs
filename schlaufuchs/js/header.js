@@ -5,7 +5,7 @@ var navbar_logo = document.getElementById('navbar-logo');
 var main = document.getElementById('main');
 
 var sticky = navbar.offsetTop;
-var space = navbar.offsetHeight + 20;
+var space = navbar.offsetHeight + 30;
 
 function stickyFn() {
 	if (window.pageYOffset >= sticky) {
