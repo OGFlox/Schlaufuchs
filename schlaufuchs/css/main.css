@@ -35,7 +35,8 @@ a {
 }
 
 .text-container-middle {
-	margin-left: 25%;
+	width: 50%;
+	margin: auto;
 }
 
 .text-container button {
@@ -79,7 +80,7 @@ a {
 }
 
 .zoom {
-	transition: transform .2s;
+	transition: transform .2s ease-in-out;
 	/* Animation */
 }
 
@@ -90,13 +91,37 @@ a {
 #imagetable table tr td {
 	table-layout: fixed;
 	text-align: center;
+	padding: 0px 20px 0px 20px;
+	width: 100%;
+	font-size: 1.2vw;
 }
 
-#imagetable td {
-	width: 25%;
+#imagetable table {
+	table-layout: fixed;
+}
+
+#imagetable img {
+	width: 80%;
+}
+
+
+#imagetable {
+	width: 50%;
+	margin: auto;
 }
 
 #offer table tr td {
-	font-size: 25px;
+	font-size: 20px;
 }
 
+@media only screen and (max-width: 1500px) {
+	.text-container-middle {
+		width: 75%;
+	}
+}
+
+@media only screen and (max-width: 1060px) {
+	.text-container-middle {
+		width: 90%;
+	}
+}

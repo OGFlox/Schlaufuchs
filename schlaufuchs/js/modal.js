@@ -5,20 +5,19 @@ var kinästhetisch = document.getElementById('Kinästhetisch');
 var kommunikativ = document.getElementById('Kommunikativ');
 
 window.onclick = function(event) {
-	if (event.target == moda1) {
+	if (event.target === moda1) {
 		moda1.style.display = "none";
 	}else
-	if (event.target == visuell) {
+	if (event.target === visuell) {
 		visuell.style.display = "none";
 	}else
-	if (event.target == auditiv) {
+	if (event.target === auditiv) {
 		auditiv.style.display = "none";
 	}else
-	if (event.target == kinästhetisch) {
+	if (event.target === kinästhetisch) {
 		kinästhetisch.style.display = "none";
 	}else
-	if (event.target == kommunikativ) {
+	if (event.target === kommunikativ) {
 		kommunikativ.style.display = "none";
 	}
-}
-
+};
