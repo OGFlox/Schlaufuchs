@@ -1,6 +1,6 @@
 .box1 {
 	position: relative;
-	height: 25vw;
+	height: 50vw;
 	width: 100%;
 	background-image: url("../media/images/img_parallax.jpg");
 	background-size: cover;
@@ -11,7 +11,7 @@
 
 .box2 {
 	position: relative;
-	height: 100vw;
+	height: 30vw;
 	width: 100%;
 	background-image: url("../media/images/img_parallax2.jpg");
 	background-size: cover;
@@ -22,7 +22,7 @@
 
 .box3 {
 	position: relative;
-	height: 100vw;
+	height: 30vw;
 	width: 100%;
 	background-image: url("../media/images/img_parallax3.jpg");
 	background-size: cover;
@@ -30,6 +30,40 @@
 	background-attachment: fixed;
 	opacity: 0.75;
 }
+
+.box4 {
+	position: relative;
+	height: 30vw;
+	width: 100%;
+	background-image: url("../media/images/img_parallax4.jpg");
+	background-size: cover;
+	display: table;
+	background-attachment: fixed;
+	opacity: 0.75;
+}
+
+.box5 {
+	position: relative;
+	height: 30vw;
+	width: 100%;
+	background-image: url("../media/images/img_parallax5.jpg");
+	background-size: cover;
+	display: table;
+	background-attachment: fixed;
+	opacity: 0.75;
+}
+
+.box6 {
+	position: relative;
+	height: 30vw;
+	width: 100%;
+	background-image: url("../media/images/img_parallax6.jpg");
+	background-size: cover;
+	display: table;
+	background-attachment: fixed;
+	opacity: 0.75;
+}
+
 .parallax-headline {
 	padding-top: 50%;
 	margin: 0px;
