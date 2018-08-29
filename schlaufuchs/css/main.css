@@ -93,7 +93,7 @@ a {
 	text-align: center;
 	padding: 0px 20px 0px 20px;
 	width: 100%;
-	font-size: 1.2vw;
+	font-size: 20px;
 }
 
 #imagetable table {
@@ -102,12 +102,6 @@ a {
 
 #imagetable img {
 	width: 80%;
-}
-
-
-#imagetable {
-	width: 50%;
-	margin: auto;
 }
 
 #offer table tr td {
@@ -123,5 +117,15 @@ a {
 @media only screen and (max-width: 1060px) {
 	.text-container-middle {
 		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.text-container-middle {
+		width: 95%;
+	}
+	
+	#imagetable table tr td {
+		font-size: 20px;
 	}
 }
