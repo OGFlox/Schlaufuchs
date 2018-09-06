@@ -20,6 +20,7 @@ a {
 }
 
 .main h3 {
+	
 	color: #076274;
 	font-size: 30px;
 }
@@ -112,38 +113,22 @@ a {
 }
 
 @media only screen and (max-width: 1500px) {
-	body {
-		font-size: 15px;
-	}
-	
-	.main h3 {
-		font-size: 25px;
-	}
-	
 	.text-container-middle {
 		width: 75%;
-	}
-	
-	#offer table tr td {
-		font-size: 15px;
 	}
 }
 
 @media only screen and (max-width: 1060px) {
-	body {
-		font-size: 12px;
-	}
-	
-	.main h3 {
-		font-size: 20px;
-	}
-	
-	#offer table tr td {
-		font-size: 12px;
+	.text-container-middle {
+		width: 90%;
 	}
 }
 
 @media only screen and (max-width: 768px) {
+	.text-container-middle {
+		width: 95%;
+	}
+	
 	#imagetable table tr td {
 		font-size: 20px;
 	}

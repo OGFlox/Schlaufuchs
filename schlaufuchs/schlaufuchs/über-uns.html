@@ -2,20 +2,13 @@
 <html>
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="description" content="Das Lernstudio Schlaufuchs stellt sich vor">
-	<meta name="keywords" content="Schlaufuchs,Lernstudio,Oberursel,Nachhilfe, Über-uns">
-	<meta name="author" content="Florian Semeras, Simon Wenk">
-	
-
+	<meta charset="utf-8" />
 	<title> Lernstudio Schlaufuchs </title>
-
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/foot.css">
 	<link rel="stylesheet" type="text/css" href="css/head.css">
 	<link rel="stylesheet" type="text/css" href="css/modal.css">
 	<script src="js/login.js"></script>
-	<script src="js/jquery.min.js"></script>
 	<link rel="shortcut icon" href="media/images/Logo.ico">
 </head>
 
@@ -29,7 +22,7 @@
 							<td><img src="media/images/Logo3.png" alt="Logo"></td>
 							<td>
 								<h1>LERNSTUDIO<br>SCHLAUFUCHS</h1>
-								<h2>- Einfach smarter lernen -</h2><br>
+								<h2>-Einfach smarter lernen-</h2><br>
 							</td>
 						</tr>
 					</table>
@@ -55,8 +48,8 @@
 					<li><a id="selected" href="./über-uns.html">Über uns</a></li>
 					<li><a href="./angebote.html">Angebote/Preise</a></li>
 					<li><a href="./ferienprogramm.html">Ferienprogramm</a></li>
-					<li><a href="./unser-team.html">Unser Team</a></li>
-					<li><a href="./news.html">News</a></li>
+					<li><a href="./team.html">Team</a></li>
+					<li><a href="./mitarbeit.html">Mitarbeit</a></li>
 					<li><a style="display: none" href="./login.html">Login</a></li>
 				</ul>
 			</div>
@@ -95,7 +88,7 @@
 				</p>
 
 				<p>
-					Jeder Mensch ist einzigartig. So unterscheiden sich Schüler und SchülerInnen z.B. jeweils in Persönlichkeit, Entwicklung,
+					Jeder Mensch ist einzigartig. So unterscheiden sich Schüler und Schülerinnen z.B. jeweils in Persönlichkeit, Entwicklung,
 					Wissensstand und Talenten.
 				</p>
 
@@ -162,6 +155,7 @@
 					<br>
 				</div>
 				<div id="Visuell" class="modal">
+					<span onclick="document.getElementById('Visuell').style.display='none'" class="Visuell" title="Close Modal">&times;</span>
 					<form method="POST" class="modal-content">
 						<div class="container">
 							<h1>Der visuelle Lerntyp</h1>
@@ -172,13 +166,14 @@
 								visuellen Lerntyp wichtig zu wissen, wie er sich diese Lernhilfen selbst erstellen kann.</p>
 
 							<div class="clearfix-main">
-								<button type="button" onclick="document.getElementById('Visuell').style.display='none'" class="beendenbtn"><b>Schließen</b></button>
+								<button type="button" onclick="document.getElementById('Visuell').style.display='none'" class="beendenbtn"><b>Beenden</b></button>
 							</div>
 						</div>
 					</form>
 				</div>
 
 				<div id="Auditiv" class="modal">
+					<span onclick="document.getElementById('Auditiv').style.display='none'" class="Auditiv" title="Close Modal">&times;</span>
 					<form method="POST" class="modal-content">
 						<div class="container">
 							<h1>Der auditive Lerntyp</h1>
@@ -190,13 +185,14 @@
 							</p>
 
 							<div class="clearfix-main">
-								<button type="button" onclick="document.getElementById('Auditiv').style.display='none'" class="beendenbtn"><b>Schließen</b></button>
+								<button type="button" onclick="document.getElementById('Auditiv').style.display='none'" class="beendenbtn"><b>Beenden</b></button>
 							</div>
 						</div>
 					</form>
 				</div>
 
 				<div id="Kinästhetisch" class="modal">
+					<span onclick="document.getElementById('Kinästhetisch').style.display='none'" class="Kinästhetisch" title="Close Modal">&times;</span>
 					<form method="POST" class="modal-content">
 						<div class="container">
 							<h1>Der kinästhetische Lerntyp</h1>
@@ -210,13 +206,14 @@
 							</p>
 
 							<div class="clearfix-main">
-								<button type="button" onclick="document.getElementById('Kinästhetisch').style.display='none'" class="beendenbtn"><b>Schließen</b></button>
+								<button type="button" onclick="document.getElementById('Kinästhetisch').style.display='none'" class="beendenbtn"><b>Beenden</b></button>
 							</div>
 						</div>
 					</form>
 				</div>
 
 				<div id="Kommunikativ" class="modal">
+					<span onclick="document.getElementById('Kommunikativ').style.display='none'" class="Kommunikativ" title="Close Modal">&times;</span>
 					<form method="POST" class="modal-content">
 						<div class="container">
 							<h1>Der kommunikative Lerntyp</h1>
@@ -230,17 +227,11 @@
 							</p>
 
 							<div class="clearfix-main">
-								<button type="button" onclick="document.getElementById('Kommunikativ').style.display='none'" class="beendenbtn"><b>Schließen</b></button>
+								<button type="button" onclick="document.getElementById('Kommunikativ').style.display='none'" class="beendenbtn"><b>Beenden</b></button>
 							</div>
 						</div>
 					</form>
 				</div>
-				<p>
-					Die wenigsten Menschen sind nur ein Lerntyp. Bei den meisten vermischen sich die verschiedenen Fähigkeiten. Daher ist es
-					wichtig zu eruieren, welche Stärken vorliegen. Dadurch können SchülerIn und Tutor gemeinsam ein passendes Konzept erstellen,
-					das die jeweils optimalen Lerntechniken umfasst.
-				</p>
-
 				<p class="quote">
 					<em>
 						„Sich ein Ziel zu setzen ist nicht die Hauptsache. Es ist entscheidend, wie dieses erreicht werden soll und dem Plan treu
@@ -253,107 +244,38 @@
 					wollen. Durch Kommunikation und gegenseitiges Vertrauen ist es möglich, einen realistischen Lernplan zu erstellen und
 					diesen gemeinsam zu erarbeiten. Denn so sind unsere gesetzten Ziele erreichbar: Freude am Lernen, Motivation, Unabhängigkeit
 					und Erfolg.
-				</p><br><br>
-
-				<h3>Motivationshilfe</h3>
-				<strong>I. Die allgemeine Problematik</strong>
-				<p>I.1. In Deutschland herrscht leider oft der Grundsatz „nicht kritisiert, ist genug gelobt.“ Aber die mangelnde Anerkennung
-					der erbrachten Leistung führt u.a. zu Enttäuschung, Frust, Verlust der Motivation und / oder sogar zu einem geringen
-					Selbstbewusstsein. Es ist schwer, die eigene Motivation aufrechtzuerhalten, erst recht, wenn sich der gewünschte Erfolg
-					bzw. die erwartete Rückmeldung nicht einstellt.
 				</p>
-
-				<p>
-					Menschen, egal welchen Alters, sind auf Anerkennung angewiesen. Als soziales Wesen liegt es in unserer Natur, die Rückmeldung
-					unseres Umfeldes zu erwarten.<br> Es beginnt bereits als Kleinkind: hat man etwas gut / richtig gemacht, gibt es
-					oft eine Belohnung. Je älter man wird, desto mehr lässt dieses Phänomen aus Kindertagen nach. „Du bist doch schon groß,
-					du brauchst doch keine Belohnung mehr.“ <br> Dass wir auch im Erwachsenenalter auf positives Feedback angewiesen sind,
-					zeigen die unzähligen Artikel im Internet (vor allem für Unternehmensführung). Viele Erwachsene gönnen sich auch etwas
-					Besonderes, wenn sie z.B. ein Projekt erfolgreich abgeschlossen haben. Kinder / Jugendliche können dies finanziell nicht
-					und sind obendrein noch weitaus abhängiger von sozialer Resonanz.Und häufig haben wir den Blick für das Kleine (hier:
-					kleine Erfolge) längst verloren.
-				</p>
-
-				<p>
-					I.2. Es ist bekannt, dass das zweidimensionale Lernen in der Schule, der Frontalunterricht und die zu große Anzahl an SchülerInnen
-					in einer Klasse bereits zu Schwierigkeiten führen können. Bisweilen kommt leider noch ein schlechtes Verhältnis zu Lehrkräften
-					hinzu. Es sind Komponenten, die zu einem „hochexplosiven Cocktail“ führen können.<br> Manchmal bildet sich dieses
-					Gemisch an negativen Emotionen bereits zu Beginn der Schullaufbahn, manchmal erst später. Häufig ergibt sich daraus
-					eine Abwärtsspirale, die scheinbar nicht durchbrochen werden kann, sich jahrelang weiter dreht und die meistens nur
-					mit außerschulischer Hilfe überwunden werden kann.
-
-				</p>
-
-				<strong>II. Die Lösungsansätze von Schlaufuchs</strong>
-				<p>
-					Hinfallen ist nicht schlimm, aber liegenbleiben. Und jeder Mensch braucht mal Hilfe. Deswegen reichen wir in solchen Fällen
-					eine helfende Hand. Das individuelle Konzept ist der erste Schritt, um das eigene Lernen zu lernen und zu optimieren.<br>Jeder
-					Schüler / jede Schülerin arbeitet mit einem Tutor oder einer Tutorin zusammen. Dabei muss „die Chemie stimmen“. Da beide
-					zusammenarbeiten sollen, sind Sympathie und Vertrauen wichtig. Aus diesen Gründen sind wir immer darauf bedacht, dass
-					wir Tutoren / Tutorinnen einsetzen, die im Umgang mit SchülerInnen geschult und geübt sind. Denn eine gute Verbindung
-					macht den größten Teil des Lernerfolges aus.<br> Und natürlich nicht zu vergessen: Lob und Belohnung werden bei kleinen
-					und großen Erfolgen gegeben. (Das Sprichwort „Ohne Fleiß kein Preis“ lässt sich nämlich auch umdrehen...)
-				</p>
-
-				<p>
-					Die Kombination aus den jeweils gewählten Methoden und dem passenden Tutor / der passenden Tutorin führt meistens schon dazu,
-					dass der Spaß am Lernen zurückkehrt. Der Lerninhalt kommt, je nach persönlicher Entwicklung, immer mehr hinzu. Dies
-					führt zur Entwicklung eines selbstständigen Lernverhaltens des Schülers / die Schülerin.
-				</p>
-
-				<p>
-					In seltenen Fällen kann es jedoch sein, dass eine weiter führende Betreuung notwendig ist. Auch diese bietet Schlaufuchs
-					selbstverständlich an: Motivationscoaching, Einzelgespräche, Tipps & Tricks u.v.m.
-				</p>
-
-				<strong>III. Zusammenfassung</strong>
-				<p>
-					Ablauf der Motivationshilfe bei Schlaufuchs
-				</p>
-
-				<p>
-					1. Lerntyp bestimmen und eigenes Konzept entwickeln <br> 2. Zusammenarbeit mit passendem Tutor / passender Tutorinnen<br>					3.
-					Lernplan in regelmäßigen Abständen auf Aktualität überprüfen <br> 4. Regelmäßiger Austausch zwischen SchülerIn, TutorIn,
-					Schlaufuchs-Leitung und Eltern<br> 5. Weitere Möglichkeiten (z.B. Motivationscoaching) miteinbeziehen<br>
-				</p>
-
 			</div>
 		</div>
 
 		<div id="find-us">
 			<h4>So finden Sie uns</h4>
-			<p>Wir sind jederzeit über E-Mail und Telefon erreichbar. Vereinbaren Sie einfach einen Beratungstermin, um mehr über
-				unsere Angebote und unser Lernkonzept zu erfahren.</p>
+			<p>Wir sind jederzeit über E-Mail und Telefon zu erreichen. Vereinbaren Sie gerne jederzeit einen Beratungstermin, um
+				mehr über unsere Angebote und unser Lernkonzept zu erfahren.</p>
 
 			<div class="contact-icons">
-				<a target="_blank" class="external" href="https://www.google.com/maps/dir//Zimmersm%C3%BChlenweg+62,+61440+Oberursel+(Taunus)/@50.1811889,8.589533,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47bd08027d3c7161:0x3dd4c41253269beb!2m2!1d8.5863108!2d50.1886325">
+				<a target="_blank" href="https://www.google.com/maps/dir//Zimmersm%C3%BChlenweg+62,+61440+Oberursel+(Taunus)/@50.1811889,8.589533,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47bd08027d3c7161:0x3dd4c41253269beb!2m2!1d8.5863108!2d50.1886325">
 					<img src="media/images/Standort.jpg" alt="Standort">
 				</a>
 				<a href="tel:+4917641929">
 					<img src="media/images/Nummer.jpg" alt="Nummer">
 				</a>
-				<a href="mailto:lernstudio-schlaufuchs@outlook.de">
+				<a href="mailto:lernstudio-schlaufuchs@web.de">
 					<img src="media/images/Email.jpg" alt="Email">
 				</a>
 			</div>
 			<p>
-				Lernstudio Schlaufuchs, Zimmersmühlenweg 62, 61440 Oberursel<br> E-Mail: lernstudio-schlaufuchs@outlook.de<br> Tel: +49
-				(0) 176 419 29
+				Lernstudio Schlaufuchs, Zimmermühlenweg 62, 61440 Oberursel<br> Mail: lernstudio-schlaufuchs@web.de<br> Tel: 0049 (0)
+				176 419 29
 			</p>
 		</div>
 
 		<div class="footer">
 			<h5><a href="./impressum.html" style="color: white">Impressum</a></h5>
-			<h5><a href="./datenschutz.html" style="color: white">Datenschutz</a></h5>
 		</div>
 	</div>
 	<script src="js/modal.js"></script>
 	<script src="js/header.js"></script>
-	<script>
-		$("a.external").click(function () {
-			alert("Hinweis: Sie verlassen diese Website! Es gelten die Datenschutzrichtlinien von Google!");
-		});
-	</script>
 </body>
 
 </html>
