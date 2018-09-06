@@ -1,0 +1,133 @@
+#website {
+	min-width: 750px;
+}
+
+body {
+	background-color: white;
+	width: 100%;
+	margin: auto;
+	font-family: Arial;
+	font-size: 20px;
+	color: #4D4D4D;
+}
+
+a {
+	color: #4D4D4D;
+}
+
+.main {
+	height: auto;
+}
+
+.main h3 {
+	color: #076274;
+	font-size: 30px;
+}
+
+.text-container {
+	width: 50%;
+	text-align: justify;
+}
+
+.text-container-left {
+	float: left;
+}
+
+.text-container-right {
+	float: right;
+}
+
+.text-container-middle {
+	width: 50%;
+	margin: auto;
+}
+
+.text-container button {
+	font-family: Arial;
+	padding: 2px 0px 2px 0px;
+	font-size: 20px;
+	background-color: rgba(255, 255, 255, 0);
+	color: black;
+	border: 1px solid rgba(255, 255, 255, 0);
+	text-decoration: none;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
+	cursor: pointer;
+}
+
+.text-container button:hover {
+	background-color: black;
+	font-family: Arial;
+	border: 1px medium rgba(255, 255, 255, 0);
+	color: white;
+	transition-property: background-color, color, border, box, box-shadow;
+	transition-duration: 0.3s;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
+	box-shadow: 0px 5px 10px black;
+}
+
+.quote {
+	color: #afafaf;
+	margin: 0px 0px 0px 50px;
+}
+
+.clearfix-main button {
+	background-color: #076274;
+}
+
+.clearfix-main button:hover {
+	background-color: #076274;
+}
+
+.zoom {
+	transition: transform .2s ease-in-out;
+	/* Animation */
+}
+
+.zoom:hover {
+	transform: scale(.85);
+}
+
+#imagetable table tr td {
+	table-layout: fixed;
+	text-align: center;
+	padding: 0px 20px 0px 20px;
+	width: 100%;
+	font-size: 20px;
+}
+
+#imagetable table {
+	table-layout: fixed;
+}
+
+#imagetable img {
+	width: 80%;
+}
+
+#offer table tr td {
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 1500px) {
+	.text-container-middle {
+		width: 75%;
+	}
+}
+
+@media only screen and (max-width: 1060px) {
+	.text-container-middle {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.text-container-middle {
+		width: 95%;
+	}
+	#imagetable table tr td {
+		font-size: 20px;
+	}
+}

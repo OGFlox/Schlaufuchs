@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Das Lernstudio Schlaufuchs stellt sich vor">
+	<meta name="keywords" content="Schlaufuchs,Lernstudio,Oberursel,Nachhilfe, Über-uns">
+	<meta name="author" content="Florian Semeras, Simon Wenk">
+	
+
+	<title> Lernstudio Schlaufuchs </title>
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/foot.css">
+	<link rel="stylesheet" type="text/css" href="css/head.css">
+	<link rel="stylesheet" type="text/css" href="css/modal.css">
+	<script src="js/login.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<link rel="shortcut icon" href="media/images/Logo.ico">
+</head>
+
+<body>
+	<div id="website">
+		<div class="header">
+			<div style="display: table; margin: 0 auto;">
+				<a class="header" href="index.html">
+					<table>
+						<tr>
+							<td><img src="media/images/Logo3.png" alt="Logo"></td>
+							<td>
+								<h1>LERNSTUDIO<br>SCHLAUFUCHS</h1>
+								<h2>- Einfach smarter lernen -</h2><br>
+							</td>
+						</tr>
+					</table>
+				</a>
+			</div>
+		</div>
+
+		<div id="navbar" class="navbar">
+			<div class="navbar-logo" id="navbar-logo">
+				<a href="index.html">
+					<div>
+						<img src="media/images/Logo4.png" alt="Logo">
+					</div>
+				</a>
+				<a href="index.html">
+					<div>
+						<p>Lernstudio<br> Schlaufuchs </p>
+					</div>
+				</a>
+			</div>
+			<div class="navbar-links">
+				<ul>
+					<li><a id="selected" href="./über-uns.html">Über uns</a></li>
+					<li><a href="./angebote.html">Angebote/Preise</a></li>
+					<li><a href="./ferienprogramm.html">Ferienprogramm</a></li>
+					<li><a href="./unser-team.html">Unser Team</a></li>
+					<li><a href="./news.html">News</a></li>
+					<li><a style="display: none" href="./login.html">Login</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="id01" class="modal">
+			<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+			<form method="POST" class="modal-content" action="php/login.php">
+				<div class="container">
+					<h1>Login</h1>
+					<p>Bitte geben Sie den Pin ein.</p>
+					<hr>
+					<label for="pin"><b>Pin</b></label>
+					<input type="text" pattern="[0-9]{4}" placeholder="Pin eintragen" name="Pin" required>
+
+					<div class="clearfix">
+						<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn"><b>Abbrechen</b></button>
+						<button type="submit" class="signupbtn"><b>Anmelden</b></button>
+					</div>
+				</div>
+			</form>
+		</div>
+
+		<div id="main" class="main">
+			<div class="text-container text-container-middle">
+				<h3>Wie wir arbeiten</h3>
+				<p>
+					Schlaufuchs − ein philosophisches Konzept
+				</p>
+
+				<p class="quote">
+					<em>
+						„Der Lehrer muß die Individualität des jungen Menschen genau kennen lernen<br> und die künftige Erziehungsweise danach
+						bestimmen.“ (Sir Francis Bacon)
+					</em>
+				</p>
+
+				<p>
+					Jeder Mensch ist einzigartig. So unterscheiden sich Schüler und SchülerInnen z.B. jeweils in Persönlichkeit, Entwicklung,
+					Wissensstand und Talenten.
+				</p>
+
+				<p>
+					Deshalb ist die Basis für den Erfolg beim Lernen das Erkennen und die Arbeit mit den jeweiligen Akzidenzien. Das heißt: Wir
+					von Schlaufuchs stellen die Individualität des Schülers / der Schülerin in den Mittelpunkt. Und die Individualität bestimmt
+					das Lernen.
+				</p>
+
+				<p class="quote"><em>
+						„Man muß an jedem Menschen so lange suchen, bis man den individuellen Punkt findet, wo er originell ist.“ (Jean Paul [Friedrich
+						Richter])
+					</em>
+				</p>
+				<p>
+					Daher ist es unsere erste Aufgabe, unsere SchülerInnen intensiv kennenzulernen, damit wir in der Lage sind, für jeden Schüler
+					/ jede Schülerin ein individuelles Konzept auszuarbeiten. Um dieses Ziel zu erreichen, beziehen wir die Interessen,
+					Hobbies, Vorlieben sowie Stärken aber auch die Abneigungen und Schwächen der SchülerInnen mit ein. Denn nur wer seine
+					Stärken und Schwächen kennt, kann mit seinen Stärken die Schwächen ausgleichen und überwinden.
+				</p>
+				<p class="quote">
+					<em>
+						„In das, was Denken heißt, gelangen wir, wenn wir selber denken. Damit ein solcher Versuch glückt, müssen wir bereit sein,
+						das Denken zu lernen.“ (Martin Heidegger)
+					</em>
+				</p>
+
+				<p class="quote">
+					<em>
+						„Sapere aude − Habe Mut, dich deines eigenen Verstandes zu bedienen!“ (Immanuel Kant)
+					</em>
+				</p>
+
+				<p>
+					Die unterschiedlichen Verarbeitungsmerkmale des menschlichen Gehirns schlagen sich in verschiedenen Lerntypen nieder. Diese
+					werden anfangs eruiert, da der Lerntyp maßgeblich das persönliche Konzept mitbestimmt. Denn dadurch lassen sich die
+					passenden Lerntechniken finden. In Folge dessen lässt sich der Lernerfolg des Schülers / der Schülerin beträchtlich
+					steigern, sodass auch die Motivation zum Lernen steigt.
+				</p>
+
+				<p>
+					Die vier Lerntypen sind:
+				</p>
+				<!--Kann man auch anders lösen (Variable)-->
+				<div id="imagetable"><br>
+					<table border="0" width="100%">
+						<tr>
+							<td><img alt="Visuell" class="zoom" src="media/images/seh.jpg" onclick="document.getElementById('Visuell').style.display='block'"
+								/></td>
+							<td><img alt="Auditiv" class="zoom" src="media/images/hör.jpg" onclick="document.getElementById('Auditiv').style.display='block'"
+								/></td>
+							<td><img alt="Kineästhetisch" class="zoom" src="media/images/bewegen.jpg" onclick="document.getElementById('Kinästhetisch').style.display='block'"
+								/></td>
+							<td><img alt="Kommunikativ" class="zoom" src="media/images/sprech.jpg" onclick="document.getElementById('Kommunikativ').style.display='block'"
+								/></td>
+						</tr>
+						<tr>
+							<td>Visuell</td>
+							<td>Auditiv</td>
+							<td>Kinästhetisch</td>
+							<td>Kommunikativ</td>
+						</tr>
+					</table>
+					<br>
+				</div>
+				<div id="Visuell" class="modal">
+					<form method="POST" class="modal-content">
+						<div class="container">
+							<h1>Der visuelle Lerntyp</h1>
+							<hr>
+							<p>
+								Der visuelle Lerntyp verarbeitet den Lernstoff am besten, wenn er ihn sieht. Für ihn ist es hilfreich zu lesen, Bilder anzuschauen
+								oder Handlungen zu beobachten. Zu den Bildern gehören auch Skizzen, Diagramme, Mindmaps u.v.m. Daher ist es für den
+								visuellen Lerntyp wichtig zu wissen, wie er sich diese Lernhilfen selbst erstellen kann.</p>
+
+							<div class="clearfix-main">
+								<button type="button" onclick="document.getElementById('Visuell').style.display='none'" class="beendenbtn"><b>Schließen</b></button>
+							</div>
+						</div>
+					</form>
+				</div>
+
+				<div id="Auditiv" class="modal">
+					<form method="POST" class="modal-content">
+						<div class="container">
+							<h1>Der auditive Lerntyp</h1>
+							<hr>
+							<p>
+								Hören ist seine Stärke: Der auditive Lerntyp speichert Informationen sehr gut ab, wenn er sie vortragen bekommt. Deswegen
+								ist es sinnvoll, dass sich dieser Lerntyp den Lernstoff laut vorliest oder ihn aufnimmt, um ihn sich dann bewusst
+								anzuhören.
+							</p>
+
+							<div class="clearfix-main">
+								<button type="button" onclick="document.getElementById('Auditiv').style.display='none'" class="beendenbtn"><b>Schließen</b></button>
+							</div>
+						</div>
+					</form>
+				</div>
+
+				<div id="Kinästhetisch" class="modal">
+					<form method="POST" class="modal-content">
+						<div class="container">
+							<h1>Der kinästhetische Lerntyp</h1>
+							<hr>
+							<p>
+								Leben heißt lernen – von Geburt an lernen wir durch Bewegungen. Doch der kinästhetische Lerntyp braucht weiterhin ein hohes
+								Maß an Reizstimulation durch Bewegung, damit er richtig lernen kann. Man sollte ihn aber nicht mit einem „Zappelphilipp“
+								verwechseln. Denn die Bewegungen vom kinästhetischen Typ sind zielgerichtet und dienen der Verarbeitung und dem Behalten
+								von Informationen. Als Bewegungsfan bevorzugt er sportliche Bewegung in Verbindung mit dem Lernstoff (z.B. Parcours-Diktate,
+								Vokabelschnitzeljagd) und andere Lernspiele (z.B. „Grap it!“).
+							</p>
+
+							<div class="clearfix-main">
+								<button type="button" onclick="document.getElementById('Kinästhetisch').style.display='none'" class="beendenbtn"><b>Schließen</b></button>
+							</div>
+						</div>
+					</form>
+				</div>
+
+				<div id="Kommunikativ" class="modal">
+					<form method="POST" class="modal-content">
+						<div class="container">
+							<h1>Der kommunikative Lerntyp</h1>
+							<hr>
+							<p>
+								„Dieses Kind ist einfach nie still!“ Natürlich nicht. Denn was leider oft als permanentes „Geblabber“ aufgefasst wird, ist
+								lediglich die Lernart des kommunikativen Typs. Genau wie der kinästhetische Lerntyp hat es der kommunikative z.B.
+								in der Schule nicht leicht. Hat er jedoch die Chance, eine Wortmeldung zu geben, einen Vortrag zu halten oder seinen
+								Mitschülern etwas zu erklären, dann ist er in seinem Element – und manchmal nicht mehr zu stoppen. Diese Energie
+								und Stärke kann der kommunikative Lerntyp perfekt nutzen, um sich z.B. mit Referatstechniken auf Klausuren vorzubereiten.
+							</p>
+
+							<div class="clearfix-main">
+								<button type="button" onclick="document.getElementById('Kommunikativ').style.display='none'" class="beendenbtn"><b>Schließen</b></button>
+							</div>
+						</div>
+					</form>
+				</div>
+				<p>
+					Die wenigsten Menschen sind nur ein Lerntyp. Bei den meisten vermischen sich die verschiedenen Fähigkeiten. Daher ist es
+					wichtig zu eruieren, welche Stärken vorliegen. Dadurch können SchülerIn und Tutor gemeinsam ein passendes Konzept erstellen,
+					das die jeweils optimalen Lerntechniken umfasst.
+				</p>
+
+				<p class="quote">
+					<em>
+						„Sich ein Ziel zu setzen ist nicht die Hauptsache. Es ist entscheidend, wie dieses erreicht werden soll und dem Plan treu
+						zu bleiben.“ (Tom Landry)
+					</em>
+				</p>
+
+				<p>
+					Grundsätzlich ist es uns sehr wichtig, dass SchülerInnen mitentscheiden dürfen, wie sie die eigene Nachhilfestunde gestalten
+					wollen. Durch Kommunikation und gegenseitiges Vertrauen ist es möglich, einen realistischen Lernplan zu erstellen und
+					diesen gemeinsam zu erarbeiten. Denn so sind unsere gesetzten Ziele erreichbar: Freude am Lernen, Motivation, Unabhängigkeit
+					und Erfolg.
+				</p><br><br>
+
+				<h3>Motivationshilfe</h3>
+				<strong>I. Die allgemeine Problematik</strong>
+				<p>I.1. In Deutschland herrscht leider oft der Grundsatz „nicht kritisiert, ist genug gelobt.“ Aber die mangelnde Anerkennung
+					der erbrachten Leistung führt u.a. zu Enttäuschung, Frust, Verlust der Motivation und / oder sogar zu einem geringen
+					Selbstbewusstsein. Es ist schwer, die eigene Motivation aufrechtzuerhalten, erst recht, wenn sich der gewünschte Erfolg
+					bzw. die erwartete Rückmeldung nicht einstellt.
+				</p>
+
+				<p>
+					Menschen, egal welchen Alters, sind auf Anerkennung angewiesen. Als soziales Wesen liegt es in unserer Natur, die Rückmeldung
+					unseres Umfeldes zu erwarten.<br> Es beginnt bereits als Kleinkind: hat man etwas gut / richtig gemacht, gibt es
+					oft eine Belohnung. Je älter man wird, desto mehr lässt dieses Phänomen aus Kindertagen nach. „Du bist doch schon groß,
+					du brauchst doch keine Belohnung mehr.“ <br> Dass wir auch im Erwachsenenalter auf positives Feedback angewiesen sind,
+					zeigen die unzähligen Artikel im Internet (vor allem für Unternehmensführung). Viele Erwachsene gönnen sich auch etwas
+					Besonderes, wenn sie z.B. ein Projekt erfolgreich abgeschlossen haben. Kinder / Jugendliche können dies finanziell nicht
+					und sind obendrein noch weitaus abhängiger von sozialer Resonanz.Und häufig haben wir den Blick für das Kleine (hier:
+					kleine Erfolge) längst verloren.
+				</p>
+
+				<p>
+					I.2. Es ist bekannt, dass das zweidimensionale Lernen in der Schule, der Frontalunterricht und die zu große Anzahl an SchülerInnen
+					in einer Klasse bereits zu Schwierigkeiten führen können. Bisweilen kommt leider noch ein schlechtes Verhältnis zu Lehrkräften
+					hinzu. Es sind Komponenten, die zu einem „hochexplosiven Cocktail“ führen können.<br> Manchmal bildet sich dieses
+					Gemisch an negativen Emotionen bereits zu Beginn der Schullaufbahn, manchmal erst später. Häufig ergibt sich daraus
+					eine Abwärtsspirale, die scheinbar nicht durchbrochen werden kann, sich jahrelang weiter dreht und die meistens nur
+					mit außerschulischer Hilfe überwunden werden kann.
+
+				</p>
+
+				<strong>II. Die Lösungsansätze von Schlaufuchs</strong>
+				<p>
+					Hinfallen ist nicht schlimm, aber liegenbleiben. Und jeder Mensch braucht mal Hilfe. Deswegen reichen wir in solchen Fällen
+					eine helfende Hand. Das individuelle Konzept ist der erste Schritt, um das eigene Lernen zu lernen und zu optimieren.<br>Jeder
+					Schüler / jede Schülerin arbeitet mit einem Tutor oder einer Tutorin zusammen. Dabei muss „die Chemie stimmen“. Da beide
+					zusammenarbeiten sollen, sind Sympathie und Vertrauen wichtig. Aus diesen Gründen sind wir immer darauf bedacht, dass
+					wir Tutoren / Tutorinnen einsetzen, die im Umgang mit SchülerInnen geschult und geübt sind. Denn eine gute Verbindung
+					macht den größten Teil des Lernerfolges aus.<br> Und natürlich nicht zu vergessen: Lob und Belohnung werden bei kleinen
+					und großen Erfolgen gegeben. (Das Sprichwort „Ohne Fleiß kein Preis“ lässt sich nämlich auch umdrehen...)
+				</p>
+
+				<p>
+					Die Kombination aus den jeweils gewählten Methoden und dem passenden Tutor / der passenden Tutorin führt meistens schon dazu,
+					dass der Spaß am Lernen zurückkehrt. Der Lerninhalt kommt, je nach persönlicher Entwicklung, immer mehr hinzu. Dies
+					führt zur Entwicklung eines selbstständigen Lernverhaltens des Schülers / die Schülerin.
+				</p>
+
+				<p>
+					In seltenen Fällen kann es jedoch sein, dass eine weiter führende Betreuung notwendig ist. Auch diese bietet Schlaufuchs
+					selbstverständlich an: Motivationscoaching, Einzelgespräche, Tipps & Tricks u.v.m.
+				</p>
+
+				<strong>III. Zusammenfassung</strong>
+				<p>
+					Ablauf der Motivationshilfe bei Schlaufuchs
+				</p>
+
+				<p>
+					1. Lerntyp bestimmen und eigenes Konzept entwickeln <br> 2. Zusammenarbeit mit passendem Tutor / passender Tutorinnen<br>					3.
+					Lernplan in regelmäßigen Abständen auf Aktualität überprüfen <br> 4. Regelmäßiger Austausch zwischen SchülerIn, TutorIn,
+					Schlaufuchs-Leitung und Eltern<br> 5. Weitere Möglichkeiten (z.B. Motivationscoaching) miteinbeziehen<br>
+				</p>
+
+			</div>
+		</div>
+
+		<div id="find-us">
+			<h4>So finden Sie uns</h4>
+			<p>Wir sind jederzeit über E-Mail und Telefon erreichbar. Vereinbaren Sie einfach einen Beratungstermin, um mehr über
+				unsere Angebote und unser Lernkonzept zu erfahren.</p>
+
+			<div class="contact-icons">
+				<a target="_blank" class="external" href="https://www.google.com/maps/dir//Zimmersm%C3%BChlenweg+62,+61440+Oberursel+(Taunus)/@50.1811889,8.589533,14z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47bd08027d3c7161:0x3dd4c41253269beb!2m2!1d8.5863108!2d50.1886325">
+					<img src="media/images/Standort.jpg" alt="Standort">
+				</a>
+				<a href="tel:+4917641929">
+					<img src="media/images/Nummer.jpg" alt="Nummer">
+				</a>
+				<a href="mailto:lernstudio-schlaufuchs@outlook.de">
+					<img src="media/images/Email.jpg" alt="Email">
+				</a>
+			</div>
+			<p>
+				Lernstudio Schlaufuchs, Zimmersmühlenweg 62, 61440 Oberursel<br> E-Mail: lernstudio-schlaufuchs@outlook.de<br> Tel: +49
+				(0) 176 419 29
+			</p>
+		</div>
+
+		<div class="footer">
+			<h5><a href="./impressum.html" style="color: white">Impressum</a></h5>
+			<h5><a href="./datenschutz.html" style="color: white">Datenschutz</a></h5>
+		</div>
+	</div>
+	<script src="js/modal.js"></script>
+	<script src="js/header.js"></script>
+	<script>
+		$("a.external").click(function () {
+			alert("Hinweis: Sie verlassen diese Website! Es gelten die Datenschutzrichtlinien von Google!");
+		});
+	</script>
+</body>
+
+</html>
